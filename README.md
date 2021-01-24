@@ -1,3 +1,6 @@
+Visit following link for complete documentation:
+https://bit.ly/370LLDw
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
