@@ -68,8 +68,8 @@ function App() {
     //that has been made by the user
 
     var options = {
-      key_id: `** your razorpay key id **`,
-      key_secret: `** your razorpay key secret **`,
+      key_id: process.env.REACT_APP_PUBLIC_KEY,
+      key_secret: process.env.REACT_APP_SECRET_KEY,
       amount: data.data.payment.amount,
       currency: "INR",
       name: "Org. Name",
